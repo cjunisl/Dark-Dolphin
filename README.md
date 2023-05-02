@@ -1,4 +1,5 @@
-## Dark theme for Dolphin
+![Logo](https://i.imgur.com/tCyn1gL.png)
+## Dark Dolphin
 
 ### Instalation
 Paste the file in -> \%AppData%\Dolphin Emulator\Styles
