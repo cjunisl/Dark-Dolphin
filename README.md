@@ -2,7 +2,7 @@
 ## Dark Dolphin
 
 ### Instalation
-Paste the file in -> \%AppData%\Dolphin Emulator\Styles
+Paste the file "Dark Dolphin theme.qss" in -> \%AppData%\Dolphin Emulator\Styles
 
 ### How to apply
 Go to Configuration -> Interface -> check "Use Custom User Style"
