@@ -38,6 +38,7 @@ QWidget {
 	background-color: transparent;
 	color: #e6e6e6;
 	alternate-background-color: #3d3d3d;
+	border-color: #5c5c5c;
 }
 
 /* Mouse tooltips */
@@ -53,6 +54,10 @@ QDialog, QMainWindow {
 }
 
 /* Top Menu Bar */
+QMenuBar{
+	background-color: #383838;
+}
+
 QMenuBar::item:selected {
 	background: #444444;
 }
@@ -81,6 +86,10 @@ QToolButton::disabled {
 }
 QToolButton::hover {
 	background-color: #3d3d3d;
+}
+
+QToolBar{
+	background-color: #383838;
 }
 
 /* Dock Widget */
@@ -155,27 +164,30 @@ QGroupBox {
 	margin-top: 1em;
 	font-size: 8pt;
 	border: 0.05em solid #bdc3c7;
+	border-radius: 3px;
+	border-color: #5c5c5c;
 }
 QGroupBox::title {
 	subcontrol-origin: margin;
 	subcontrol-position: top;
 	padding: 0.3em 0.5em 0.3em 0.5em;
 	color: #fff;
+
 }
 
 /* Checkboxes */
 QCheckBox::indicator {
 	border-radius: 0.1em;
-	border: 0.05em solid #ecf0f1;
+	border: 0.05em solid #5c5c5c;
 	margin-top: 0.05em;
 	width: 0.8em;
 	height: 0.8em;
 }
 QCheckBox::indicator:checked {
-	background-color: #2ecc71; /* Green */
+	background-color: #fff; /* Green */
 }
 QCheckBox::indicator:unchecked {
-	background-color: #e74c3c; /* Red */
+	background-color: #333; /* Red */
 }
 QCheckBox::indicator::disabled {
 	background-color: #7f8c8d; /* Gray */
@@ -185,15 +197,15 @@ QCheckBox::indicator::disabled {
 QRadioButton::indicator {
 	border-radius: 0.4em;
 	border: 0.05em solid;
-	border-color: white;
+	border-color: #5c5c5c;
 	width: 0.8em;
 	height: 0.8em;
 }
 QRadioButton::indicator:checked {
-	background-color: #2ecc71; /* Green */
+	background-color: #fff; /* Green */
 }
 QRadioButton::indicator:unchecked {
-	background-color: #e74c3c; /* Red */
+	background-color: #333;; /* Red */
 }
 QRadioButton::indicator::disabled {
 	background-color: #7f8c8d; /* Gray */
@@ -207,6 +219,7 @@ QComboBox {
 	border-radius: 0.15em;
 	padding-bottom: 0.2em;
 	padding-left: 0.4em;
+
 }
 QComboBox::disabled {
 	background-color: #828790;
